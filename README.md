@@ -1,9 +1,9 @@
 # test_nvidia_docker github repo
 
-## Install nvidia-driver & cuda
+## Install nvidia-driver
 https://medium.com/@scofield44165/ubuntu-20-04%E4%B8%AD%E5%AE%89%E8%A3%9Dnvidia-driver-cuda-11-4-2%E7%89%88-cudnn-install-nvidia-driver-460-cuda-11-4-2-cudnn-6569ab816cc5
 
-## Install cudnn (official)
+## Install cuda cudnn (official)
 https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
 
 ## Install nvidia-docker2
