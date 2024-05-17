@@ -1,0 +1,56 @@
+Address: 140.113.148.82 
+Netmask: 255.255.255.0
+Gateway: 140.113.148.254
+DNS: 8.8.8.8, 1.1.1.1
+
+
+$ sudo apt update
+$ sudo apt upgrade
+
+
+google-chrome: 
+    https://www.google.com/chrome/?platform=linux
+    $ cd Downloads/
+    $ sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+vscode: install in ubuntu-software
+
+terminator: 
+    $ sudo add-apt-repository ppa:mattrose/terminator
+    $ sudo apt-get update
+    $ sudo apt install terminator
+
+
+$ sudo apt install net-tools
+$ ifconfig
+
+
+Anydesk: 
+    https://anydesk.com/zh-tw/downloads/linux
+    $ sudo dpkg -i anydesk_6.3.2-1_amd64.deb
+
+ssh:
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ sudo apt install openssh-client
+    $ sudo apt install openssh-server
+
+github ssh:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    $ ssh-keygen -t ed25519 -C "your_email@example.com"
+    $ cat /home/tzuchichen/.ssh/id_ed25519.pub
+
+$ sudo apt install git
+
+docker:
+    https://docs.docker.com/engine/install/ubuntu/
+    https://docs.docker.com/engine/install/linux-postinstall/
+
+GPU setup:
+    https://github.com/zhuchi76/test_nvidia_docker
+
+zoom:
+    https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063458#h_adcc0b66-b2f4-468b-bc7a-12c182f354b7
+
+Chinese (chewing):
+    https://medium.com/@scofield44165/ubuntu-20-04%E4%B8%AD%E6%96%B0%E5%A2%9E%E6%96%B0%E9%85%B7%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95-add-chinese-chewing-in-ubuntu-20-04-5ce78563638b
