@@ -22,11 +22,6 @@ sudo apt-get update
 sudo apt-get install -y nvidia-docker2
 sudo systemctl restart docker
 
-# Check Docker image
-docker pull nvidia/cuda:12.2.2-base-ubuntu20.04
-docker run --rm --gpus all nvidia/cuda:12.3.1-base-ubuntu20.04 nvidia-smi
-docker run -it --gpus all nvidia/cuda:12.3.1-base-ubuntu20.04 bash
-
 ## Erase all Docker images [!!! CAUTION !!!]
 # docker rmi -f $(docker images -a -q)
 
