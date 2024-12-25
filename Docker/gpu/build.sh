@@ -1,1 +1,1 @@
-docker build -t argnctu/test_nvidia_docker:latest .
+docker build --rm -t argnctu/test_nvidia_docker:latest .
