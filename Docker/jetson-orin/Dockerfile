@@ -1,5 +1,5 @@
 # Start from the l4t-base Docker Image
-FROM nvcr.io/nvidia/l4t-base:r35.2.1
+FROM nvcr.io/nvidia/l4t-pytorch:r35.2.1-pth2.0-py3
 
 ENV SHELL=/bin/bash \
     USER=arg \
@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y \
 RUN python3 -m pip install --upgrade pip
 
 # Install PyTorch and torchvision
-RUN pip3 install torch torchvision torchaudio
+# RUN pip3 install torch torchvision torchaudio
 
 RUN chown -R $USER:$USERS ${HOME}/
 RUN echo "root ALL=(ALL)  ALL" > /etc/sudoers
