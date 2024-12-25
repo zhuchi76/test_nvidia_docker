@@ -49,8 +49,10 @@ docker:
 GPU setup:
     https://github.com/zhuchi76/test_nvidia_docker
 
-zoom:
-    https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063458#h_adcc0b66-b2f4-468b-bc7a-12c182f354b7
-
 Chinese (chewing):
     https://medium.com/@scofield44165/ubuntu-20-04%E4%B8%AD%E6%96%B0%E5%A2%9E%E6%96%B0%E9%85%B7%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95-add-chinese-chewing-in-ubuntu-20-04-5ce78563638b
+
+Slack:
+    $ sudo apt update
+    $ sudo apt install snapd
+    $ sudo snap install slack --classic
