@@ -1,5 +1,5 @@
 # Start from the l4t-base Docker Image
-FROM pull nvcr.io/nvidia/l4t-base:r35.2.1
+FROM nvcr.io/nvidia/l4t-base:r35.2.1
 
 ENV SHELL=/bin/bash \
     USER=arg \
