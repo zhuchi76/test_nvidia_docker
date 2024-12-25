@@ -1,1 +1,1 @@
-Docker/jetson-orin/docker_run.sh
+Docker/jetson-orin/run.sh
